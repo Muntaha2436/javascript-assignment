@@ -2,34 +2,34 @@
 // questio 1
 
 
-// let a = 10;
-//     document.write("<h3>Result:</h3>");
-//     document.write("The value of a is: " + a + "<br>");
-//     document.write(".............................................<br><br>");
+let a = 10;
+    document.write("<h3>Result:</h3>");
+    document.write("The value of a is: " + a + "<br>");
+    document.write(".............................................<br><br>");
 
-//     // Pre-increment (++a)
-//     document.write("The value of ++a is: " + (++a) + "<br>");
-//     document.write("Now the value of a is: " + a + "<br><br>");
+    // Pre-increment (++a)
+    document.write("The value of ++a is: " + (++a) + "<br>");
+    document.write("Now the value of a is: " + a + "<br><br>");
 
-//     // Post-increment (a++)
-//     document.write("The value of a++ is: " + (a++) + "<br>");
-//     document.write("Now the value of a is: " + a + "<br><br>");
+    // Post-increment (a++)
+    document.write("The value of a++ is: " + (a++) + "<br>");
+    document.write("Now the value of a is: " + a + "<br><br>");
 
-//     // Pre-decrement (--a)
-//     document.write("The value of --a is: " + (--a) + "<br>");
-//     document.write("Now the value of a is: " + a + "<br><br>");
+    // Pre-decrement (--a)
+    document.write("The value of --a is: " + (--a) + "<br>");
+    document.write("Now the value of a is: " + a + "<br><br>");
 
-//     // Post-decrement (a--)
-//     document.write("The value of a-- is: " + (a--) + "<br>");
-//     document.write("Now the value of a is: " + a + "<br><br>");
+    // Post-decrement (a--)
+    document.write("The value of a-- is: " + (a--) + "<br>");
+    document.write("Now the value of a is: " + a + "<br><br>");
 
-//         // Pre-decrement (--a)
-//     document.write("The value of --a is: " + (--a) + "<br>");
-//     document.write("Now the value of a is: " + a + "<br><br>");
+        // Pre-decrement (--a)
+    document.write("The value of --a is: " + (--a) + "<br>");
+    document.write("Now the value of a is: " + a + "<br><br>");
 
-//     // Post-decrement (a--)
-//     document.write("The value of a-- is: " + (a--) + "<br>");
-//     document.write("Now the value of a is: " + a + "<br><br>");
+    // Post-decrement (a--)
+    document.write("The value of a-- is: " + (a--) + "<br>");
+    document.write("Now the value of a is: " + a + "<br><br>");
 
 // question 2
 
@@ -82,57 +82,57 @@
 
 // question 3
 
-// let userName = prompt("pleas enter your name") 
-// document.write(`Hello ${userName}! Welcome to our website`)
+let userName = prompt("pleas enter your name") 
+document.write(`Hello ${userName}! Welcome to our website`)
 
-// alert(`Hello ${userName}! Welcome to our website`)
+alert(`Hello ${userName}! Welcome to our website`)
 
 // question 4
 
-// var number = prompt("Enter a number for table:");
-// if (number === "" || number === null) {
-//     number = 5;
-// }
-// number = Number(number);
-// for (var i = 1; i <= 10; i++) {
-//     document.write(number + " x " + i + " = " + (number * i) + "<br>");
-// }
+var number = prompt("Enter a number for table:");
+if (number === "" || number === null) {
+    number = 5;
+}
+number = Number(number);
+for (var i = 1; i <= 10; i++) {
+    document.write(number + " x " + i + " = " + (number * i) + "<br>");
+}
 
 
 // question 5
 
 
     // a) Subjects name from user
-    // var subject1 = prompt("Enter first subject name:");
-    // var subject2 = prompt("Enter second subject name:");
-    // var subject3 = prompt("Enter third subject name:");
+    var subject1 = prompt("Enter first subject name:");
+    var subject2 = prompt("Enter second subject name:");
+    var subject3 = prompt("Enter third subject name:");
 
-    // // b) Total marks per subject
-    // var totalMarks = 100;
+    // b) Total marks per subject
+    var totalMarks = 100;
 
-    // // c & d) Obtained marks for all subjects
-    // var obtained1 = Number(prompt("Enter obtained marks for " + subject1));
-    // var obtained2 = Number(prompt("Enter obtained marks for " + subject2));
-    // var obtained3 = Number(prompt("Enter obtained marks for " + subject3));
+    // c & d) Obtained marks for all subjects
+    var obtained1 = Number(prompt("Enter obtained marks for " + subject1));
+    var obtained2 = Number(prompt("Enter obtained marks for " + subject2));
+    var obtained3 = Number(prompt("Enter obtained marks for " + subject3));
 
-    // // e) Calculate totals and percentages
-    // var totalAll = totalMarks * 3;
-    // var obtainedTotal = obtained1 + obtained2 + obtained3;
-    // var percentageAll = (obtainedTotal / totalAll) * 100;
+    // e) Calculate totals and percentages
+    var totalAll = totalMarks * 3;
+    var obtainedTotal = obtained1 + obtained2 + obtained3;
+    var percentageAll = (obtainedTotal / totalAll) * 100;
 
-    // var percentage1 = (obtained1 / totalMarks) * 100;
-    // var percentage2 = (obtained2 / totalMarks) * 100;
-    // var percentage3 = (obtained3 / totalMarks) * 100;
+    var percentage1 = (obtained1 / totalMarks) * 100;
+    var percentage2 = (obtained2 / totalMarks) * 100;
+    var percentage3 = (obtained3 / totalMarks) * 100;
 
-    // Display in table
-    // document.write("<h2>Marks Sheet</h2>");
-    // document.write("<table border='1' cellspacing='0' cellpadding='8'>");
-    // document.write("<tr><th>Subject</th><th>Total Marks</th><th>Obtained Marks</th><th>Percentage</th></tr>");
+    Display in table
+    document.write("<h2>Marks Sheet</h2>");
+    document.write("<table border='1' cellspacing='0' cellpadding='8'>");
+    document.write("<tr><th>Subject</th><th>Total Marks</th><th>Obtained Marks</th><th>Percentage</th></tr>");
 
-    // document.write("<tr><td>" + subject1 + "</td><td>" + totalMarks + "</td><td>" + obtained1 + "</td><td>" + percentage1.toFixed(0) + "%</td></tr>");
-    // document.write("<tr><td>" + subject2 + "</td><td>" + totalMarks + "</td><td>" + obtained2 + "</td><td>" + percentage2.toFixed(0) + "%</td></tr>");
-    // document.write("<tr><td>" + subject3 + "</td><td>" + totalMarks + "</td><td>" + obtained3 + "</td><td>" + percentage3.toFixed(0) + "%</td></tr>");
+    document.write("<tr><td>" + subject1 + "</td><td>" + totalMarks + "</td><td>" + obtained1 + "</td><td>" + percentage1.toFixed(0) + "%</td></tr>");
+    document.write("<tr><td>" + subject2 + "</td><td>" + totalMarks + "</td><td>" + obtained2 + "</td><td>" + percentage2.toFixed(0) + "%</td></tr>");
+    document.write("<tr><td>" + subject3 + "</td><td>" + totalMarks + "</td><td>" + obtained3 + "</td><td>" + percentage3.toFixed(0) + "%</td></tr>");
 
-    // document.write("<tr><th>Total</th><th>" + totalAll + "</th><th>" + obtainedTotal + "</th><th>" + percentageAll.toFixed(0) + "%</th></tr>");
-    // document.write("</table>");
+    document.write("<tr><th>Total</th><th>" + totalAll + "</th><th>" + obtainedTotal + "</th><th>" + percentageAll.toFixed(0) + "%</th></tr>");
+    document.write("</table>");
 
