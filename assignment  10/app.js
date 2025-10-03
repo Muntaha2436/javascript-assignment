@@ -8,8 +8,37 @@
 //     [1,0,1,2],
 //     [2,1,0,1]
 // ];
+
+// let rows = 3;  
+// let cols = 4;   
+// let matrics = [];
+
+
+// for (let i = 0; i < rows; i++) {
+//   matric[i] = [];  // 
+//   for (let j = 0; j < cols; j++) {
+//     matric[i][j] = Math.abs(i - j);  
+//   }
+// }
+
+
+// for (let i = 0; i < rows; i++) {
+//   document.write(matric[i].join(" "));
+//   document.write("<br/>")
+// }
+
 // for(let i = 0; i < matric.length ; i ++){
 //     document.write (matric[i]+"<br />");
+// }for (let i = 0; i < rows; i++) {
+//   matrix[i] = [];  // create a new row
+//   for (let j = 0; j < cols; j++) {
+//     matrix[i][j] = value++;
+//   }
+
+
+// // Display the matrix
+// for (let i = 0; i < rows; i++) {
+//   console.log(matrix[i].join(" ")); // prints row values
 // }
 
 // question 3
